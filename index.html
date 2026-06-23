@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+
+<title>Portfolio Pink Final 💖</title>
+
+
+</head>
+
+<body>
+    
+
+<nav>
+<button onclick="showPage('home')">Home</button>
+<button onclick="showPage('about')">Tentang</button>
+<button onclick="showPage('education')">Pendidikan</button>
+<button onclick="showPage('hobby')">Hobi</button>
+<button onclick="showPage('pencapaian')">pencapaian</button>
+<button onclick="showPage('keahlian')">Keahlian</button>
+</nav>
+
+<!-- HOME -->
+<div id="home" class="page active">
+<img src="potoku/potoku.jpeg" class="profile">
+<h1 class="title">Sidika Zega 💖</h1>
+<p>Mahasiswa Teknologi Dan Ilmu Komputerr </p>
+<!-- KONTAK -->
+<div class="contact-info">
+    <h3>📞 Kontak Saya</h3>
+
+    <p>
+        📷 Instagram :
+        <a href="https://instagram.com/username_ig" target="_blank">
+            @username_ig
+        </a>
+    </p>
+
+    <p>
+        📧 Email :
+        <a href="mailto:zegasidika@gmail.com">
+            zegasidika@gmail.com
+        </a>
+    </p>
+</div>
+</div>
+
+<!-- ABOUT -->
+<div id="about" class="page">
+<h1 class="title">Tentang Saya</h1>
+
+<div class="gallery">
+<img id="mainPhoto" src="potoku/WhatsApp Image 2026-06-22 at 20.18.31.jpeg" class="main-photo"><br>
+
+<h2>Hallo, Saya SIDIKA ZEGA Saat ini saya menjadi salah satu Mahasiswa
+     Di Universitas Satya Terra Bhinneka Program Studi Informatika
+    Kelas, IF-D-SG, 
+    Saya Lahir Pada Tanggal 23 JULI 2008
+    Dan Beragama KRISTEN PROTESTAN
+     </h2>
+    <button class="back-btn" onclick="showPage('about')">
+             KEMBALI
+</div>
+</div>
+
+<!-- PENDIDIKAN -->
+<div id="education" class="page">
+<h1 class="title">Pendidikan</h1>
+
+<div class="card-container">
+<div class="card" onclick="showPage('sd')">SD</div>
+<div class="card" onclick="showPage('smp')">SMP</div>
+<div class="card" onclick="showPage('sma')">SMA</div>
+<div class="card" onclick="showPage('kuliah')">Kuliah</div>
+<button class="back-btn" onclick="showPage('Pendidikan')">
+             KEMBALI
+</div>
+</div>
+
+<div id="sd" class="page">
+<h1>SD</h1>
+<p>Saya Sekolah Dasar 064008 Pada tahun 2014-2019</p>
+<img src="potoku/sd.jpg.jpeg" class="detail-img">
+<button class="back-btn" onclick="showPage('education')">Kembali</button>
+</div>
+
+<div id="smp" class="page">
+<h1>SMP</h1>
+<p>Saya Melanjutkan Pendidkan Di sekolah Menengah Pertama HKBP Sei Mati Pada Tahun Ajaran 2019-2022</p>
+<img src="potoku/smp.jpg.jpeg" class="detail-img">
+<button class="back-btn" onclick="showPage('education')">Kembali</button>
+</div>
+
+<div id="sma" class="page">
+<h1>SMA</h1>
+<p>Setelah Itu Saya Melanjutakan Pendidikan Saya Di Sekolah Menengah Atas Negeri 9 Medan Pada Tahun Ajaran 2022-2025</p>
+<img src="potoku/sma.jpg.jpeg" class="detail-img">
+<button class="back-btn" onclick="showPage('education')">Kembali</button>
+</div>
+
+<div id="kuliah" class="page">
+<h1>Kuliah</h1>
+<p>2025</p>
+<img src="potoku/RENDER UNIV SATYA TERRA VIEW 6 UHD (R3).jpg" class="detail-img">
+<p>Dan saya Melanjutkan/Memutuskan Untuk Kuliah Di Universitas Satya Terra Bhinneka</p>
+<button class="back-btn" onclick="showPage('education')">Kembali</button>
+</div>
+
+<!-- HOBI -->
+<div id="hobby" class="page">
+<h1 class="title">hobby</h1>
+
+<div class="card-container"></div>
+
+<div class="hobby-item" onclick="showPage('olahraga')">
+<img src="potoku/olahraga6.jpeg">
+<span>Olahraga</span>
+
+</div>
+
+<div class="hobby-item" onclick="showPage('memasak')">
+<img src="potoku/masak1.jpeg">
+<span>Memasak</span>
+</div>
+
+<div class="hobby-item" onclick="showPage('menyanyi')">
+<img src="potoku/nyanyinatal.jpeg">
+<span>Menyanyi</span>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+<!-- DETAIL HOBI (SEMUA ADA FOTO BANYAK) -->
+<div id="olahraga" class="page">
+<h1 class="title">Olahraga 💪</h1>
+<div class="photo-grid">
+    <h2>lari/joging</h2>
+<img src="potoku/olahraga2.jpeg" lari>
+<h2>berenang</h2>
+<img src="potoku/berenang.jpeg">
+<h2>lari/joging</h2>
+<img src="potoku/olahraga5.jpeg">
+</div>
+<button class="back-btn" onclick="showPage('hobby')">KEMBALI</button>
+
+</div>
+
+<div id="memasak" class="page">
+<h1 class="title">Memasak 🍳</h1>
+<div class="photo-grid">
+    <h2>SEMUR</h2>
+<img src="potoku/masak1.jpeg">
+<h2>ARSIK</h2>
+<img src="potoku/arsik.jpeg">
+<h2>SEBLAK</h2>
+<img src="potoku/masakseblak.jpeg">
+</div>
+<button class="back-btn" onclick="showPage('hobby')">KEMBALI</button>
+</div>
+
+<div id="menyanyi" class="page">
+<h1 class="title">Menyanyi 🎤</h1>
+<div class="photo-grid">
+    <h2>Singer gereja</h2>
+<img src="potoku/nyanyii.jpg.jpeg">
+<h2>paduan suara SMA</h2>
+<img src="potoku/paduan.jpg.jpeg">
+<h2>Natalan sekolah</h2>
+<img src="potoku/nyanyinatal.jpeg">
+</div>
+<button class="back-btn" onclick="showPage('hobby')">Kembali</button>
+</div>
+</div>
+
+
+<!-- ================= PENCAPAIAN ================= -->
+<div id="pencapaian" class="page">
+    <h1 class="title">Pencapaian Saya 🏆</h1>
+
+    <div class="card-container">
+
+        <div class="card" onclick="showPage('sertifikat')">
+            <h2>📜 Sertifikat</h2>
+            <p>Klik untuk melihat foto</p>
+        </div>
+
+        <div class="card" onclick="showPage('lomba')">
+            <h2>🥇 Lomba</h2>
+            <p>Klik untuk melihat foto</p>
+        </div>
+
+        
+
+    </div>
+</div>
+
+<!-- HALAMAN SERTIFIKAT -->
+<div id="sertifikat" class="page">
+    <h1 class="title">Sertifikat</h1>
+
+    <div class="photo-grid">
+        
+        <img src="potoku/sertinyanyisekolah.jpeg">
+        <img src="potoku/sertifikat1.jpeg">
+        <img src="potoku/sertifikat2.jpeg">
+        <img src="potoku/sertinyanyi.jpeg">
+    </div>
+
+    <button class="back-btn" onclick="showPage('pencapaian')">
+        Kembali
+    </button>
+</div>
+
+<!-- HALAMAN LOMBA -->
+<div id="lomba" class="page">
+    <h1 class="title">Lomba</h1>
+
+    <div class="photo-grid">
+        <h2>Vocal Solo UNPAB(Universitas
+             Panca Budi)(2023)
+        </h2>
+        <img src="potoku/ikut lomba2.jpg.jpeg">
+        <h2>vocal Group
+             (2024)</h2>
+        <img src="potoku/lombapaduan.jpeg">
+        <h2>Vocal Solo 
+            (2024)</h2>
+        <img src="potoku/52.jpg.jpeg">
+    </div>
+
+    <button class="back-btn" onclick="showPage('pencapaian')">
+        Kembali
+    </button>
+</div>
+
+
+    
+    <!-- KEAHLIAN -->
+<div id="keahlian" class="page">
+    <h1 class="title">Keahlian 💻</h1>
+
+    <div class="card-container">
+
+        <div class="card">
+            <h2>🌐 HTML</h2>
+            <p>Mampu membuat struktur website menggunakan HTML.</p>
+        </div>
+
+        <div class="card">
+            <h2>🎨 CSS</h2>
+            <p>Mampu mendesain tampilan website yang menarik dan responsif.</p>
+        </div>
+
+        <div class="card">
+            <h2>📜 Script.js</h2>
+            <p>Mampu mengelola kode JavaScript dalam file terpisah.</p>
+        </div>
+
+        <div class="card">
+            <h2>🐍 Python</h2>
+            <p>Mampu membuat program sederhana menggunakan Python.</p>
+        </div>
+
+        <div class="card">
+            <h2>🖥️ Microsoft Office</h2>
+            <p>Menguasai Microsoft Word, Excel, dan PowerPoint.</p>
+        </div>
+
+        <div class="card">
+            <h2>🎬 CapCut</h2>
+            <p>Mampu mengedit video sederhana menggunakan aplikasi CapCut.</p>
+        </div>
+
+        <div class="card">
+            <h2>🎨 Canva</h2>
+            <p>Mampu membuat desain poster, presentasi, dan konten kreatif menggunakan Canva.</p>
+        </div>
+
+    </div>
+
+    <button class="back-btn" onclick="showPage('home')">
+        Kembali
+    </button>
+</div>
+    </div>
+    
+
+    
+</div>
+    
+
+ 
+
+<script>
+
+function showPage(id){
+document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+document.getElementById(id).classList.add("active");
+window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function changePhoto(src){
+document.getElementById("mainPhoto").src = src;
+}
+
+</script>
+
+</body>
+</html>
